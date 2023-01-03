@@ -65,6 +65,12 @@ You can follow same procedure in the official  AWS document [Getting started wit
    chmod +x ./aws-iam-authenticator
    mkdir -p $HOME/bin && cp ./aws-iam-authenticator $HOME/bin/aws-iam-authenticator && export PATH=$PATH:$HOME/bin
    echo 'export PATH=$PATH:$HOME/bin' >> ~/.bashrc
+   
+8. update .kube/config fileaws sts get-caller-identity(i.e Unable to connect to the server: getting credentials: exec: executable aws-iam-authenticator not found)
+   aws sts get-caller-identity
+   aws eks update-kubeconfig --region region-code --name my-cluster
+   kubectl get svc
 
+   
  
 
