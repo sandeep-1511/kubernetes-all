@@ -69,9 +69,9 @@ You can follow same procedure in the official  AWS document [Getting started wit
  
    
 8. update .kube/config fileaws sts get-caller-identity(i.e Unable to connect to the server: getting credentials: exec: executable aws-iam-authenticator not found)
-   -- aws sts get-caller-identity
-   -- aws eks update-kubeconfig --region region-code --name my-cluster
-   -- kubectl get svc
+   a. aws sts get-caller-identity
+   b. aws eks update-kubeconfig --region region-code --name my-cluster
+   c. kubectl get svc
 ---
  
 
