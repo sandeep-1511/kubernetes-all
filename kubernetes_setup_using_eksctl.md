@@ -74,4 +74,6 @@ You can follow same procedure in the official  AWS document [Getting started wit
    c. kubectl get svc
 ---
  
+9. vault eks 
 
+                     https://developer.hashicorp.com/vault/tutorials/kubernetes/kubernetes-amazon-eks
